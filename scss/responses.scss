@@ -1,0 +1,49 @@
+  .people {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      background: #f8f9fa;
+      padding: 50px 0;
+
+      .people-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #027cff;
+            font-size: 70px;
+            width: 250px;
+            margin: 50px 50px;
+
+            img {
+              width: 200px;
+              height: 200px;
+              border-radius: 100%;
+            }
+
+            h2 {
+                font-size: 30px;
+                color: #212529;
+                margin: 20px 0;
+            }
+
+            p {
+                font-size: 20px;
+                color: #929ab0;
+                line-height: 25px;
+              }
+        }
+
+      }
+
+  }

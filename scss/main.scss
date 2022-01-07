@@ -1,0 +1,37 @@
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 50%;
+
+      h2 {
+        margin: 20px 100px;
+        font-size: 30px;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: justify;
+        margin:  0 100px;
+      }
+    }
+
+    img {
+      width: 50%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
